@@ -12,5 +12,5 @@ notify_data = {
 
     }
 
-a=requests.post(url,auth=('malasri.c','Malasreech@1997'), json=notify_data)
+a=requests.post(url,auth=('malasri.c','Malasreech@1997'), json=notify_data, verify=False)
 print(a.text)
