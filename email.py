@@ -8,7 +8,7 @@ notify_data = {
         "htmlBody": "bug raised <strong>html<strong>",
         "to": {
             "users": ["malasri@gmail.com"]
-        },
+        }
 
     }
 
